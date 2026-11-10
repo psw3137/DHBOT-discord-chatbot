@@ -1,0 +1,31 @@
+# 환경변수 (절대 커밋 금지)
+.env
+
+# 채팅 데이터 (개인정보 보호)
+data/
+
+# 대화 로그 (친구 아이디/대화 포함)
+logs/
+
+# 학습된 모델 (용량 큼)
+models/
+
+# ChromaDB 로컬 저장소
+chroma_db/
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
